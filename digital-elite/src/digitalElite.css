@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.body__backgroundTrapeze {
+    width: 50%;
+    position: absolute;
+    border-bottom: 90vh solid #DB5461;
+    border-right: 25vh solid transparent;
+    z-index: -1;
+}
+
+.sectionBackground {
+    background-image: url('../images/background-image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    width: 55%;
+    position: absolute;
+    margin-left: -5%;
+    z-index: -2;
+}
+
+.header__logoDigitalElite {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+.header__navegationBar {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: auto;
+    padding: 1% 4%;
+    box-shadow: 0 0 4px #30343F;
+    font-weight: 900;
+}
+
+.header__navegationBar a {
+    color: #000000;
+    text-decoration: none;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0.5% 2%;
+}
+
+.header__navegationBar a:hover {
+    color: #DB5461;
+}
+
+.sectionMarketing {
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+}
+
+.sectionMarketing__text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    margin: 15% 0 4% 9%;
+}
+
+.sectionMarketing__text--wordDigitalise {
+    color: #000000;
+}
+
+.sectionMarketing__button {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #FFFFFF;
+    border: 2px solid #30343F;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px #30343F;
+    padding: 0.7% 2%;
+    margin: 0 0 15% 9%;
+    cursor: pointer;
+}
+
+.sectionMarketing__button:hover {
+    color: #DB5461;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    background-color: #30343F;
+    color: #FFFFFF;
+    width: 100%;
+    list-style-type: none;
+    padding: 2% 0;
+}
+
+.footer__image img {
+    float: right;
+    padding-right: 10%;
+    width: 20%;
+}
+
+.footer__info--text {
+    opacity: 0.5;
+}
